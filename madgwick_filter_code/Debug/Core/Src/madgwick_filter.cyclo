@@ -1,0 +1,2 @@
+../Core/Src/madgwick_filter.c:29:6:initialize_madgwick_filter	1
+../Core/Src/madgwick_filter.c:39:6:madgwick_main	1

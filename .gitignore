@@ -1,55 +1,32 @@
-# Prerequisites
-*.d
+# Build artifacts
+/Debug/
+/Release/
+.build/
 
-# Object files
+# Project settings and metadata
+/.settings/
+.mxproject
+.project
+.cproject
+*.launch
+
+# Generated files
 *.o
-*.ko
-*.obj
+*.d
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+*.bin
 *.hex
+*.map
+*.srec
+*.cyclo
 
-# Debug files
-*.dSYM/
+# IDE-specific files
+.metadata/
+.history/
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
 *.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# TouchGFX specific files (if applicable)
+/TouchGFX/build/
+/TouchGFX/generated/
+/TouchGFX/temp/
